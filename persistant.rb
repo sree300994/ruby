@@ -9,17 +9,17 @@ number = 234
 
 while number > 9
 
-	product = 1
+	# product = 1
 
-	number.to_s.split("").each do |n| # ["2","3","4"] 
+	# number.to_s.split("").each do |n| # ["2","3","4"] 
 
-		product = product * n.to_i
+	# 	product = product * n.to_i
       
-	end
+	# end
 
-	number = product
+	# number = product
     
-    # number = number.to_s.split("").map!{|n| n.to_i}.inject(:*)
+    number = number.to_s.split("").map!{|n| n.to_i}.inject(:*)
 end
 
 puts number

@@ -16,6 +16,5 @@ numbers.each do |num|
 	elsif number > min_number
 		min_number = number
 	end
-	puts "#{} is the minimum in the array"
-	end
 end
+puts "#{min_number} is the minimum in the array"

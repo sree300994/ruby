@@ -24,7 +24,7 @@ wishlist.each do |x|
 	presents.each do |y|
 		if x[:size] == y[:size] && x[:clatters] == y[:clatters] && x[:weight] == y[:weight]
 			a = x[:name]
-			result.push(x[:name])
+			result.push(a)
 		end
 	end
 end

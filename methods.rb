@@ -24,4 +24,3 @@ result = add(20,20) # 20 & 20 are known as arguments
 puts result
 puts add(30,30)
 puts add "hello " , "30"
-puts add

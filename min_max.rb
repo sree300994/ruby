@@ -3,7 +3,6 @@ numbers = [10,20,3,25]
 min_number = numbers[0]
 max_number = numbers[0]
                   
-
 puts numbers.join(",")
 puts min_number
 puts max_number

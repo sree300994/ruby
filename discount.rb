@@ -8,11 +8,11 @@ puts calc_total(1000,100,25)
 puts calc_total(1000,100,30)
 
 
-def cal_total_hash(detials)
+def cal_total_hash(details)
 	# details.has_key?(:loyalty_points) ? details[:loyalty_points] : 5
-	total = detials[:total]
-	loyalty_points=detials[:loyalty_points].nil? ? 5 : detials[:loyalty_points]
-	discount = detials[:discount].nil? ? 10 : detials[:discount]
+	total = details[:total]
+	loyalty_points=details[:loyalty_points].nil? ? 5 : details[:loyalty_points]
+	discount = details[:discount].nil? ? 10 : details[:discount]
 	return total - (total * discount / 100)
 end
 

@@ -1,4 +1,4 @@
-names = ["sree", "mahesh", "mahi", "arun"]
+names = ["sree", "mahesh", "mahi"]
 
 puts "Enter the name to search"
 search_name = gets.chomp

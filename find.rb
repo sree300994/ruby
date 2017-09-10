@@ -13,7 +13,9 @@ end
 
 
 =begin
-	numbers.each do |n|{
-	
-	end}
+	numbers.each do |n|
+		if n == search_number
+			puts "#{search_number} is found"
+		end
+	end
 =end
