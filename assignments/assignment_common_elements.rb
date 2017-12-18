@@ -3,9 +3,7 @@
 
 	Output:
 	Single line output, Print the common elements of array. If not possible then print -1.
-
-	 
-
+	
 	Example:
 	Input:
 	1

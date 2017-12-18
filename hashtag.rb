@@ -22,6 +22,5 @@ else
     else 
 	   puts output
     end
-
 end
 

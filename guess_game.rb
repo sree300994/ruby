@@ -19,7 +19,7 @@ while player_guess < max_guesses #while loop is used to check condition
 
 	if guess < target_number #if loop is used to tell the condition is whether low or high in one condition only
 
-			puts "Oops! your guess is low"
+		puts "Oops! your guess is low"
 
 		elsif guess > target_number #elsif loop is used to tell the condition is whether low or high in multiple conditions
 

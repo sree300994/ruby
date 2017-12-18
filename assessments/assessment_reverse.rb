@@ -1,5 +1,5 @@
 str = "i.like.this.program.very.much"
 
-arr = str.split(".")
+ puts arr = str.split(".").reverse.join(".")
 
-puts arr.reverse.join(".")
+# puts arr

@@ -4,14 +4,12 @@ num = gets.to_i
 n = 0
 numbers = []
 numbers.push(n)
-numbers.each do |x|
-	if num < 0
-		puts "The number #{num} is not valid"
-    else
-    	puts "The numbers 1 to n are"
- 	    num.times do
- 		puts n += 1
-        end
+if num < 0
+	puts "The number #{num} is not valid"
+else
+	puts "The numbers 1 to n are"
+	num.times do
+		puts n += 1
     end
 end
 
@@ -31,17 +29,5 @@ end
 final_number = numbers.reverse
 
 puts final_number.join(", ")
-
-
-puts "Enter your number"
-
-num = gets.to_i
-
-numbers = 0
-
-numbers.each do |x|
-	if x >= 1
-		puts "The numbers 1 to n are"
-end
 
 =end

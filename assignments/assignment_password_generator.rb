@@ -19,7 +19,6 @@ numbers_count = gets.to_i
 alphabets_count = password_length - special_chars_count - numbers_count
 
 5.times do 
-
 	password = numbers.shuffle.take(numbers_count) + alphabets.shuffle.take(alphabets_count) + special_chars.shuffle.take(special_chars_count)
 
 	puts password.shuffle.join("")

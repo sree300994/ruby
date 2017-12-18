@@ -3,7 +3,7 @@ require './product'
 require 'faker'
 require './user'
 require './review'
-require 'Date'
+require 'date'
 
 categories = []
 products = []

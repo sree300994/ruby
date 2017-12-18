@@ -19,13 +19,13 @@ puts "The temperature for the next 5 days in #{result["city"]["name"]} is"
 
 lists = result["list"]
 lists.each do |list|
-	#puts "#{list["dt_txt"]} temp is #{list["main"]["temp"]}"
+	puts "#{list["dt_txt"]} temp is #{list["main"]["temp"]}"
 	date_time = list["dt_txt"]
 	date = date_time.split(" ")[0]
 	#puts date
 	ddmmyy = date.split("-").reverse
 	#puts ddmmyy
 	formatted_date = ddmmyy.join("-")
-	puts formatted_date
+	# puts formatted_date
 end
 

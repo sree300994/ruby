@@ -11,10 +11,10 @@ end
 
 puts missing_num([1,2,3,5])
 
-def miss_num(array)
-	number = array.first
-	array.find{|n| n}
-end
+# def miss_num(array)
+# 	number = array.first
+# 	array.find{|n| n}
+# end
 
-puts miss_num([1,2,4])
+# puts miss_num([1,2,4])
 

@@ -8,10 +8,11 @@ input.each do |number|
 	array << number.find_all{|num| num == 1 }.length
 end
 
-numbers = array.max
+puts array
+puts number = array.max
 
 array.each_with_index do |num, index|
-	if num == numbers
+	if num == number
 		puts "output : #{index}"
 	end
 end

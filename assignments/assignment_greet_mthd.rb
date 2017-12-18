@@ -11,7 +11,7 @@ class Person
 	end
 end
 
-p1 = Person.new({:first_name => "Sreekanth", :last_name => "Kurakula"})
+p1 = Person.new({:first_name => "Sreekanth", :last_name => "Kuraakula"})
 puts p1.details
 
 

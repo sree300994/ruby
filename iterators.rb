@@ -30,7 +30,7 @@ end
 
 
 for name in names
-	puts name.upcase
+	puts name.length
 end
 
 names.each do |x|

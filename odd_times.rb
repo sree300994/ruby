@@ -1,3 +1,4 @@
+require 'pry'
 def odd_times_appear(numbers)
 
 result = {}
@@ -5,7 +6,9 @@ result = {}
 numbers.each do |n|
 
 	result[n] = numbers.count(n)
+	# binding.pry
 	if (numbers.count(n) % 1)
+		# binding.pry
 		# return numbers.count(n)
 		
 		# return n = result.key(numbers.count(n))

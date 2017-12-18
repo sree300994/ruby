@@ -6,17 +6,17 @@ arr.delete(arr.first)
 
 arr.delete(arr.last)
 
-# puts arr.inject(:+)
+puts arr.inject(:+)
 
 
 
 
-number = 6
-numbers = []
-array.each_with_index do |num, index|
-	if num > number
-		numbers.push(num)
-	end
-end
+# number = 6
+# numbers = []
+# array.each_with_index do |num, index|
+# 	if num > number
+# 		numbers.push(num)
+# 	end
+# end
 
-puts numbers
+# puts numbers

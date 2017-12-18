@@ -4,6 +4,7 @@ def cart_total(*prices) # here prices will be an array
 	# prices.each do |price|
 	# 	sum += price
 	# end
+	puts "prices: #{prices}"
 	return prices.inject(:+)
 end
 

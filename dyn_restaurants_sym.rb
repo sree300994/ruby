@@ -26,9 +26,9 @@ restaurants= {
 # this method is used to sanitize the key incase there is spaces in the keys, it will make it underscore
 require 'pry'
 def key_sanitizer(key)
-    binding.pry
+    # binding.pry
     key.split(" ").join("_").to_sym
-    binding.pry
+    # binding.pry
 end
 
 def value_hash(data)

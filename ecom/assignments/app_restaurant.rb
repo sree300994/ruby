@@ -3,7 +3,7 @@ require './location'
 require './cuisine'
 require './restaurant_cuisine'
 require './user'
-require './reviews'
+require './review'
 require 'faker'
 
 restaurants = []
@@ -109,7 +109,7 @@ end
 		:body => Faker::Lorem.sentence,
 		:rating => (1..5).to_a.sample
 	}
-	review = Reviews.new(review_params)
+	review = Review.new(review_params)
 	reviews.push(review)
 end
 

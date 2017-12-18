@@ -1,6 +1,6 @@
 require 'httparty'
 require 'json'
-$url = "http://localhost:4000/api/v0/"
+$url = "http://localhost:3000/api/v0/"
 
 def index
 	response = HTTParty.get($url + "clients")
@@ -65,8 +65,19 @@ def edit
 			when "3"
 				puts "Enter Email"
 				client["email"] = gets.chomp
+			else
+				puts "Invalid Selection"
 			end
-			
+			puts "Do you wish to continue"
+			cont = gets.chomp
+		end
+		response = HTTParty.patch($url + "clients/#{id}", body: {"client" => client})
+		client = JSON.parse(response.body)
+		if client.has_key?("errors")
+			show_errors(client)
+			edit
+		else
+			puts "Client Updated : #{client["name"]}"
 		end
 	end
 end

@@ -52,7 +52,7 @@ numbers.unshift(12,14)
 puts "Numbers : #{numbers}"
 
 #insert adds value to the specific index
-numbers.insert(2,55) # index method takes 2 args, 1st is index, 2nd is the value
+numbers.insert(2,55) # insert method takes 2 args, 1st is index, 2nd is the value
 puts "Numbers : #{numbers}"
 
 # numbers.insert(20,100)

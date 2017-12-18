@@ -29,8 +29,10 @@ products = []
 end
 
 puts "products < 499"
-products.find_all {|product| product.price < 499}
-	puts "#{product.details}"
+product = products.find_all {|product| product.price < 499}
+product.each_with_index do |pro, index|
+	puts "#{index + 1}. #{pro.details}"
+end
 
 puts "category"
 products.each_with_index do |product,index|
@@ -41,7 +43,10 @@ end
 
 puts "Kids with price between 250 & 750"
 products.each_with_index do |product,index|
-	if (product.category == "Kids") && (product.price > 250)
+	if (product.category == "Kids") && (product.price > 250) && (product.price < 750)
+		puts "#{index + 1}. #{product.details}"
+	end
+end
 
 
 

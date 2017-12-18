@@ -11,7 +11,6 @@ if num < 0
  else
  	puts "The numbers 1 to n are"
  	num.times do
-
  	    puts n += 1
     end
 end

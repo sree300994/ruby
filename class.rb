@@ -2,12 +2,12 @@
 class Restaurant
 	# attributes / properties
 	# methods / behaviours
-	#instance Variables = are values held indside an object. it is represented using @
+	#instance Variables = are values held inside an object. it is represented using @
 	
 	# this is a writer method / setters
-   def name=(r_name)
-	 # here @name is an attribute of  an object, it is also known as an instance variable
-	 @name = r_name
+    def name=(r_name)
+	   # here @name is an attribute of  an object, it is also known as an instance variable
+	   @name = r_name
     end
 
     def location=(r_location)
@@ -16,7 +16,7 @@ class Restaurant
 
    # this is a reader method / 
     def name 
-	 @name
+	   @name
     end
     
     def location

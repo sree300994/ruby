@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Missing Number</title>
+</head>
+<body>
+<script>
+	var array = [1,2,3,4,6,7,8]
+	var missing_number = 1;
+	// console.log(missing_number);
+	array.forEach(function(number) {
+		if (number == missing_number) {
+			missing_number += 1;
+		} else {
+			return missing_number
+		}
+	});
+	alert(missing_number);
+	console.log(missing_number);
+</script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 numbers = []
-puts = "Enter 5 numbers"
+puts "Enter 5 numbers"
 5.times do
 	n = gets.to_i
 	numbers.push(n)
@@ -26,7 +26,7 @@ count = numbers.count(search_number)
 if count == 0
 	puts "#{search_number} not found"
 else
-	puts "The number : #{search_number} is found #{count} times"
+	puts "The number : #{search_number} is found #{count} time(s)"
 end
 
 =begin

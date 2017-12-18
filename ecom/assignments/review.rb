@@ -1,4 +1,4 @@
-class Reviews
+class Review
 	attr_accessor :user_id, :restaurant_id, :body, :rating
 	attr_reader :id
 

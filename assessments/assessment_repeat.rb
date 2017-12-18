@@ -1,18 +1,16 @@
 # require 'pry'
-
-def string_count(str)
-	
+str = "hello"	
 arr = str.split("")
-	# puts arr
-	arr.each do |alpha|
-		if arr.count(alpha) > 1
-			# binding.pry
-			return alpha
-			break
-		else
-			return -1
-		end
-	end
+result = arr.find { |alpha| arr.count(alpha) > 1 }
+
+if (result.nil?)
+	puts -1
+else
+	puts result
 end
 
-puts string_count("fg")
+
+
+
+
+

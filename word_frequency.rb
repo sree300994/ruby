@@ -1,6 +1,5 @@
-players = "virat virat virat sachin sachin rahul dhoni dhoni"
-=begin
-	
+players = "virat virat virat dhoni sachin dhoni sachin rahul dhoni dhoni"
+=begin	
 	virat - ***
 	sachin - **
 	rahul - *
@@ -21,7 +20,7 @@ rahul_count = names.count("rahul")
 dhoni_count = names.count("dhoni")
 
 
-puts "Virat - #{"*" * virat_count }"
+puts "Dhoni  - #{"*" * dhoni_count }"
+puts "Virat  - #{"*" * virat_count }"
 puts "Sachin - #{"*" * sachin_count }"
-puts "Dhoni - #{"*" * dhoni_count }"
-puts "Rahul - #{"*" * rahul_count }"
+puts "Rahul  - #{"*" * rahul_count }"

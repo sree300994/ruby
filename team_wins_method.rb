@@ -22,24 +22,21 @@ winnerlist =[
 ]
 def country_count(winnerlist)
 
+	puts "Enter your country name"
 
-puts "Enter your country name"
+	country_name = gets.chomp
 
-country_name = gets.chomp
+	count = 0
 
-count = 0
+	team = []
 
-team = []
+	winnerlist.each do |cntry|
 
-winnerlist.each do |cntry|
-
-	if cntry["country"] == country_name
-	    count = count + 1
-        team.push(cntry["team"])
+		if cntry["country"] == country_name
+		    count = count + 1
+	        team.push(cntry["team"])
+		end
 	end
-end
-
-
 end
 
 
